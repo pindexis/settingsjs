@@ -1,0 +1,15 @@
+{
+  "name": "SettingsJS",
+  "version": "0.0.0",
+  "description": "application settings manager",
+  "keywords": [],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "node": "*",
+  },
+  "author": "Amine Hajyoussef",
+  "license": "BSD-2-Clause"
+}
