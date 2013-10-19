@@ -11,5 +11,5 @@
     "node": "*",
   },
   "author": "Amine Hajyoussef",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }
