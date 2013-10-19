@@ -30,14 +30,9 @@ function Settings(logger) {
   }
 
 
+  // settings parameters
   var parameters = {};
 
-  function getParameter(name) {
-    if (!parameters.hasOwnProperty(name)) {
-      throw "Settings do not contain " + name;
-    }
-    return parameters[name];
-  }
   // add a new config parameter (or multiple at once)
   this.add = function (params) {
 
@@ -301,6 +296,13 @@ function Settings(logger) {
     }
 
     throw new Error("Unable to copy obj! Its type isn't supported.");
+  }
+
+  function getParameter(name) {
+    if (!parameters.hasOwnProperty(name)) {
+      throw "Settings do not contain " + name;
+    }
+    return parameters[name];
   }
 
   //for testing and debugging purposes
