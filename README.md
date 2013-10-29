@@ -2,10 +2,10 @@ settings.js
 ==========
 
 setting.js is a tracker of application configuration parameters, it offers the following features:
-- Validation of Config Variables
+- Validation of Config Variables (or api)
 - onChange Callbacks
 - Locking variables
-- Deferred Validation
+- Deferred Validation (validation when a variable is requested)
 
 
 
